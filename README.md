@@ -1,6 +1,6 @@
 # Online Education ACADEMIA 🏫 👨🏻‍💻
 
-# From || Eday Jumash
+# From || Edya Jumash
 #
 # My Social Media Network 👇🏻 <br/>
 <h2> My instagram:  https://www.instagram.com/zhumashevv_996/ </h2>
