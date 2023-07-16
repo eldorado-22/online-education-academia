@@ -18,6 +18,7 @@
 header {
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 30px;
+    /*position: relative;*/
 }
 
 header ul {
@@ -38,6 +39,20 @@ header ul li a:hover {
     color: #1ab2a6;
 }
 
+.logo h1 {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo span {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+
 .start {
     cursor: pointer;
     background-color: #1ab2a6;
@@ -45,7 +60,10 @@ header ul li a:hover {
     color: #ffffff;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
 }
-
+.start .button{
+    font-weight: 400;
+    text-transform: uppercase;
+}
 .toggle {
     display: none;
 }
@@ -64,9 +82,11 @@ header ul li a:hover {
     header ul.flexSB {
         display: none;
     }
+
     header ul li {
         margin-bottom: 20px;
     }
+
     .toggle {
         display: block;
         background: none;
@@ -74,10 +94,10 @@ header ul li a:hover {
         font-size: 30px;
         position: absolute;
         right: 30px;
-        top: 20px;
+        top: -20px;
     }
 
-    .mobile-nav{
+    .mobile-nav {
         position: absolute;
         top: 7vh;
         left: 0;

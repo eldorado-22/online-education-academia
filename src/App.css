@@ -1,45 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-}
-body{
-  font-family: 'Roboto', sans-serif;
-  /*background-color: #f8f8f8;*/
-  background-color: #858484;
-}
-li{
-  list-style-type: none;
-}
-.container{
-  max-width: 85%;
-  margin: auto;
+a {
+    text-decoration: none;
 }
 
-.flexSB{
-  display: flex;
-  justify-content: space-between;
-}
-.icon{
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: rgba(255, 255,255, 0.3);
-  transition: 0.5s;
-}
-.icon:hover{
-  cursor: pointer;
-  background-color: #1eb2a6;
-  color: #fff;
-}
-button{
-  border: none;
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #f8f8f8;*/
+    background-color: #858484;
 }
 
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+
+.flexSB {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+    color: #1ab2a6;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+button {
+    border: none;
+}
+
+.row {
+    width: 50%;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 24px 36px -11px rgb(0 0 0/9%);
+    color: #1eb2a6;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 30px 10px 0 0;
+    padding: 17px 30px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+button i {
+    margin-left: 20px;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+.primary-btn{
+    background-color: #1ab2a6;
+    color: white;
+}
+#heading{
+    text-align: center;
+    padding: 40px 0;
+}
+#heading h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1ab2a6;
+}
+#heading h1{
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+p{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/*@media screen and (max-width: 769px){*/
+/*    .margin{*/
+/*        height: 40vh;*/
+/*    }*/
+/*    .hero{*/
+/*        background-position: right;*/
+/*    }*/
+/*}*/
+@media screen and (max-width: 768px) {
+    .margin{
+        height: 40vh;
+    }
+    .hero{
+        background-position: center;
+        padding-top: 50%;
+        height: 80vh;
+    }
+    .hero .row{
+        width: 100%;
+    }
+}
