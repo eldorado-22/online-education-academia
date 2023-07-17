@@ -122,3 +122,32 @@ p{
         width: 100%;
     }
 }
+
+.back{
+    background-image: url('./assets/images/about-back.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 26%;
+    padding-right: 50%;
+    color: #ffffff;
+    text-align: center;
+}
+.back h1{
+    font-size: 100px;
+    font-weight: 400;
+}
+.back h2{
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.marin{
+    margin-top: 40.3%;
+}

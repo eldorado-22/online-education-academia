@@ -2,9 +2,13 @@ import React from 'react';
 
 const AWrapper = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <section className="awrapper">
+                <div className="container grid">
+
+                </div>
+            </section>
+        </>
     );
 };
 

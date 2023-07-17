@@ -1,9 +1,12 @@
 import React from 'react';
+import Back from "../common/back/back";
+import AboutCard from "./AboutCard";
 
 const About = () => {
     return (
         <>
-            <h1>About</h1>
+            <Back title='About Us'/>
+            <AboutCard/>
         </>
     );
 };
